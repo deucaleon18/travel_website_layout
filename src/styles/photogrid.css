@@ -1,0 +1,19 @@
+.photogrid{
+    height:60vh;
+    width:100%;
+    
+  
+}
+
+@media screen and (max-width:500px){
+
+.photogrid{
+    height:45vh;
+}
+
+
+}
+
+@media screen and (min-width:768px){
+    
+}

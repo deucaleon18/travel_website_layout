@@ -1,0 +1,13 @@
+.App{ background-color:#121C20;
+overflow-y:scroll;
+
+}
+
+.App::-webkit-scrollbar {
+    display: none;
+  }
+
+.App{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
