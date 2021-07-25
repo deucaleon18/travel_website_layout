@@ -1,7 +1,10 @@
 import React from 'react'
 
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography,GridList,Grid,Box,Container,Card,GridListTile,GridListTileBar,IconButton,Button} from '@material-ui/core';
+// import { GridList,Box,Card,GridListTile,GridListTileBar,IconButton} from '@material-ui/core';
+
+import {Typography,Grid,Container,Button} from '@material-ui/core';
+
 import img_1 from '../utils/cliff.jpg'
 import img_2 from '../utils/forest.jpg'
 import img_3 from '../utils/cave.jpg'
@@ -54,10 +57,10 @@ const PerfectVacation = () => {
             
           <Grid container lg={12} className={classes.gridContainer} >
           <Grid container lg={6} style={{width:'50%'}}>
-          <Grid container items style={{height:'94%',paddingRight:'2%',margin:'auto'}}lg={7}><img src={img_1} className={classes.gridImage}/></Grid>
+          <Grid container items style={{height:'94%',paddingRight:'2%',margin:'auto'}}lg={7}><img src={img_1} className={classes.gridImage} alt=''/></Grid>
           <Grid container items lg={5}>
-          <Grid container items style={{height:'44%',paddingBottom:'2%',margin:'auto',paddingLeft:'10%'}}  ><img src={img_3} className={classes.gridImage}/></Grid>
-          <Grid container items style={{height:'44%',paddingTop:'2%',margin:'auto',paddingLeft:'10%'}} ><img src={img_2} className={classes.gridImage}/></Grid>
+          <Grid container items style={{height:'44%',paddingBottom:'2%',margin:'auto',paddingLeft:'10%'}}  ><img src={img_3} className={classes.gridImage} alt=''/></Grid>
+          <Grid container items style={{height:'44%',paddingTop:'2%',margin:'auto',paddingLeft:'10%'}} ><img src={img_2} className={classes.gridImage} alt=''/></Grid>
           </Grid>
           </Grid>
 

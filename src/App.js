@@ -13,7 +13,7 @@ import {createMuiTheme,ThemeProvider, responsiveFontSizes } from '@material-ui/c
 
 let theme=createMuiTheme({
 
-typography:{fontFamily:"Gotham"},
+typography:{fontFamily: 'Nunito Sans'},
 
 palette: {
   primary: {

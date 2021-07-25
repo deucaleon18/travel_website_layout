@@ -1,5 +1,6 @@
 import React from 'react';
-import { Typography,GridList,Grid,Box,Container,Card,GridListTile,GridListTileBar,IconButton,Button} from '@material-ui/core';
+import { Typography,Grid,Box,IconButton} from '@material-ui/core';
+// import {GridList,Container,Card,GridListTile,GridListTileBar,Button} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 import img_1 from '../utils/footer.jpg'

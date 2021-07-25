@@ -3,7 +3,11 @@ import "../styles/photogrid.css";
 // import Typography from '@material-ui/core/Typography'
 
 import { makeStyles } from '@material-ui/core/styles';
-import { Typography,GridList,Grid,Box,Container,Card,GridListTile,GridListTileBar,IconButton} from '@material-ui/core';
+import { Typography,GridList,Grid,Card,GridListTile,GridListTileBar,IconButton} from '@material-ui/core';
+//  import {Box,Container} from '@material-ui/core';
+
+
+
 import img_1 from "../utils/photo1.jpg"
 import img_2 from "../utils/photo2.jpg"
 import img_3 from "../utils/photo3.jpg"
@@ -74,7 +78,7 @@ const Photogrid = () => {
               <Typography variant='h6' className={classes.title}> We seek to provide authentic content for traveller around the world</Typography>
           </Grid>
              <GridList cellHeight={350} style={{marginTop:'2%',width:'80%',alignItems:'center',paddingLeft:'10vw'}} cols={4} >
-           <GridListTile col={1}><Card className={classes.Card}><img src={img_1} className={classes.gridImage}/><GridListTileBar
+           <GridListTile col={1}><Card className={classes.Card}><img src={img_1} className={classes.gridImage} alt=''/><GridListTileBar
            className={classes.tilebar}
 
            title="Lorem ipsum"
@@ -85,7 +89,7 @@ const Photogrid = () => {
            >
              
              </GridListTileBar></Card></GridListTile>
-           <GridListTile col={1}><Card className={classes.Card}><img src={img_2} className={classes.gridImage}/><GridListTileBar
+           <GridListTile col={1}><Card className={classes.Card}><img src={img_2} className={classes.gridImage} alt=''/><GridListTileBar
               className={classes.tilebar}
 
               title="Lorem ipsum"
@@ -98,7 +102,7 @@ const Photogrid = () => {
            >
              
              </GridListTileBar></Card></GridListTile>
-           <GridListTile col={1}><Card className={classes.Card}><img src={img_3} className={classes.gridImage}/><GridListTileBar
+           <GridListTile col={1}><Card className={classes.Card}><img src={img_3} className={classes.gridImage} alt=''/><GridListTileBar
               className={classes.tilebar}
 
               title="Lorem ipsum"
@@ -111,7 +115,7 @@ const Photogrid = () => {
            >
              
              </GridListTileBar></Card></GridListTile>
-           <GridListTile col={1}><Card className={classes.Card}><img src={img_4} className={classes.gridImage}/><GridListTileBar
+           <GridListTile col={1}><Card className={classes.Card}><img src={img_4} className={classes.gridImage} alt=''/><GridListTileBar
               className={classes.tilebar}
 
               title="Lorem ipsum"

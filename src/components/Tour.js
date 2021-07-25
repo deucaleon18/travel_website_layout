@@ -1,5 +1,6 @@
 import React from 'react'
-import { Typography,GridList,Grid,Box,Container,Card,GridListTile,GridListTileBar,IconButton,Button} from '@material-ui/core';
+// import {GridList,Box,Card,GridListTile,GridListTileBar,IconButton} from '@material-ui/core';
+import {Typography,Grid,Container,Button} from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles=makeStyles(theme=>({
@@ -7,7 +8,7 @@ const useStyles=makeStyles(theme=>({
 
 
   container:{
- height:'120vh',width:'100%'
+ height:'150vh',width:'100%'
   },
 
     text:{
@@ -23,7 +24,7 @@ width:"15%",
 height:'4%',
 marginTop:'5%',
 marginBottom:'5%',
-marginLeft:'0%'
+marginLeft:'-24.5%'
 
 // legth:"100%"
 },
@@ -51,13 +52,13 @@ const Tour = () => {
     return (
       <Container >
    <Grid container className={classes.container}>
-   <Grid container items style={{marginBottom:'5%'}}>
+   <Grid container items >
        <Typography variant="h3" className={classes.text}>
            Our Tour Blog
       </Typography> 
-      {/* <div className={classes.underline}>
+      <div className={classes.underline}>
 
-      </div> */}
+      </div>
    </Grid>
 <Grid container items lg={12} styles={{height:"90vh"}}>
 
@@ -66,7 +67,7 @@ const Tour = () => {
 
      We seek to provide the authentic content for the traveller around the world <br>
      </br>
-     Fint hosts and guests anywhere in the world.
+     Find hosts and guests anywhere in the world.
  </Typography>
  <Button className={classes.button}><Typography>Learn More</Typography></Button>
 </Grid>
@@ -92,7 +93,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 
      We seek to provide the authentic content for the traveller around the world <br>
      </br>
-     Fint hosts and guests anywhere in the world.
+     Find hosts and guests anywhere in the world.
  </Typography>
  <Button className={classes.button}><Typography>Learn More</Typography></Button>
 
